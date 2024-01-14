@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-shadow: 0 0 15px rgba(1, 15, 49, 0.4);
+}
+
+body{
+  background-color: #023047;
+  text-align: center;
+}
+
+.container{
+  height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.game{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.box{
+  height: 73px;
+  width: 73px;
+  background-color: #91d2f0;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0px 15px rgba(160, 229, 241, 0.3);
+  font-size: 48px;
+  color: black
+}
+
+#reset-button{
+  padding:9px;
+  background-color: black;
+  color:beige;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  transition: opacity 1s;
+}
+
+#new-button{
+  padding:9px;
+  background-color: black;
+  color:beige;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  transition: opacity 1s;
+}
+
+#msg{
+  color:#91d2f0;
+  font-size: 40px;
+
+}
+
+.msg-container{
+  height: 650px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.hide{
+  display: none;
+}
+.box:hover{
+  background-color: rgb(30, 170, 175);
+}
+
+#reset-button:hover{
+  opacity: 0.4;
+  background-color: aliceblue;
+  color: black;
+}
+
+#new-button:hover{
+  opacity: 0.4;
+  background-color: aliceblue;
+  color: black;
+}
